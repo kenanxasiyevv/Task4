@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to bottom, rgba(92, 77, 66, 0.8)0%, rgba(92, 77, 66, 0.8)100%), url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 8px 0 8px 0;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 1.25rem auto 0 auto;
+    width: 80%;
+}
+
+.start {
+    float: left;
+    font-size: 22px;
+    font-family: Metropolis, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-weight: bold;
+}
+
+.clear {
+    clear: both;
+}
+
+.start a {
+    text-decoration: none;
+    color: #ddd9d5;
+}
+
+.about a {
+    text-decoration: none;
+    color: #ddd9d5;
+}
+
+a:hover {
+    color: #fff;
+    transition: 0.4s;
+}
+
+.write {
+    margin-right: 2rem;
+}
+
+.about {
+    font-size: 1.05rem;
+    float: right;
+    font-weight: bold;
+    margin-top: 4px;
+    font-family: Metropolis, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.centertext {
+    margin-top: 20rem;
+    text-align: center;
+    font-weight: 500;
+    font-family: Metropolis, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 2rem;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.centertext h1 {
+    font-size: 3.7rem;
+    font-weight: 550;
+    font-family: Merriweather, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    ;
+}
+
+.centertext hr {
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: #f4623a;
+    border-color: #f4623a;
+    border-radius: 5px;
+}
+
+.centertext h2 {
+    color: rgba(255, 255, 255, 0.75);
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 1.25rem;
+    font-style: oblique;
+    margin-bottom: 3rem;
+    font-family: Merriweather, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.centertext a {
+    padding: 1.25rem 2.25rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10rem;
+    background-color: #f4623a;
+    color: #fff;
+}
+
+.centertext a:hover {
+    background-color: #CF5331;
+}
+
+.text {
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-color: #F4623A;
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    padding: 10rem 0 10rem 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 18.5rem;
+}
+
+text.h2 {
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    margin: 4rem auto;
+    font-weight: 500;
+    line-height: 1.2;
+
+}
+
+.text hr {
+    color: #fff;
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: #fff;
+    border-color: #fff;
+    border-radius: 5px;
+}
+
+.text p {
+    color: #ddd9d5;
+    width: 90%;
+    padding-left: 66rem;
+    font-size: 1.1rem;
+    margin-bottom: 3.5rem;
+    width: 100%;
+    margin-left: -32rem;
+}
+
+.text a {
+    padding: 1.25rem 2.25rem;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 19rem;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
